@@ -1,0 +1,149 @@
+
+h1 {
+  
+    font-weight: bold;
+    text-align: center;
+    background-color: red;
+    color: aliceblue;
+    margin-bottom: 0;
+    
+}
+
+h2 {
+   
+    font-weight: bold;
+    text-align: center;
+    background-color: grey;
+    color: aliceblue;
+    margin-top: 0;
+}
+
+h3 {
+
+    font-weight: bold;
+    text-align: center;
+    background-color: grey;
+    color: aliceblue;
+   
+}
+
+h4 {
+
+    font-weight: bold;
+    text-align: center;
+    max-height: 30px;
+    flex-shrink: 1;
+    z-index: 1;
+
+
+}
+
+.container {
+
+
+
+}
+
+.figurine {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 750px;
+    margin: 0 auto;
+  
+    
+}
+
+
+.figurine > li {
+
+ 
+    flex-basis: 33.33%;
+  text-align: center;
+
+
+
+
+}
+
+
+.figurine > li > figure > img {
+
+ 
+    max-width: 100%;
+    text-align: center;
+
+
+}
+
+.figurine>li>figure>.descriptif {
+
+    font-weight: 0;
+
+
+}
+
+.figurine>li>figure>div {
+
+    display: flex;
+    
+ }
+
+
+
+.figurine>li>figure>div .ajout {
+
+   background-color: red;
+   color: aliceblue;
+   width: 75%;
+   text-align: center;
+   display: flex;
+   align-items: center;
+}
+
+.figurine>li>figure>div .prix {
+
+    background-color: red;
+    color: aliceblue;
+    width: 16.5%;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+  
+}
+
+.figurine>li>figure>div .barre {
+
+    background-color: red;
+    text-decoration : line-through;
+    color: aliceblue;
+    width: 8.5%;
+    text-align: center;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-weight: 100;
+}
+
+
+.figurine>li>figure>div .reduc {
+
+    background-color: red;
+    font-weight: bold;
+    color: aliceblue;
+    width: 8.5%;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 0.5;
+
+}
+
+.figurine>li>figure {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+
+
